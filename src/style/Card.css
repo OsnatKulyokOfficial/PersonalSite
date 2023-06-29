@@ -120,20 +120,20 @@ h1 {
   }
 }
 
-.one {
-  /* background: url('../images/osnat_box.jpg'); */
-  background-size: cover;
-  background-position: center;
+/******************* Carusel Training *************************/
+/* .swiper-container {
+  width: 100%;
+  height: auto;
 }
-.two {
-  background: url('../images/osnat_box.jpg') no-repeat center center fixed;
+
+.swiper-slide {
+  width: 100%;
+  height: auto;
 }
-.three {
-  background: url('../images/osnat_box.jpg') no-repeat center center fixed;
-}
-.four {
-  background: url('../images/me.jpg') no-repeat center center fixed;
-}
-.five {
-  background: url('../images/special2.png') no-repeat center center fixed;
-}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

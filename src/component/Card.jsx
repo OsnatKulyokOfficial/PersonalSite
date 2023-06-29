@@ -2,6 +2,9 @@ import React from "react";
 import "../style/Card.css";
 import CardItem from "./CardItem";
 import meImage from "../images/me.jpg";
+import boxImage from "../images/osbox.jpg";
+import computeOs from "../images/computeOs.jpg";
+import box2Image from "../images/special2.png";
 
 function Cards() {
   return (
@@ -12,35 +15,28 @@ function Cards() {
           <ul className="cards__items one">
             <CardItem
               src={meImage}
-              style={{
-                width: "535px",
-                height: "358px",
-                objectFit: "contain",
-                objectPosition: "center",
-              }}
               text="About Me"
               label="Adventure"
               path="/services"
             />
           </ul>
-          <ul className="cards__items">
+          <ul className="cards__items ">
             <CardItem
-              src="../images/osbox.jpg"
-              className="two"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
+              src={computeOs}
+              text="School & Proffesional Projects"
+              label="My Geek Side"
               path="/services"
             />
           </ul>
-          <ul className="cards__items">
+          <ul className="cards__items ">
             <CardItem
-              // src="../images/osnat_box.jpg"
-              className="three"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              src={boxImage}
+              text="Fighting & Competetiton"
+              label="Fights"
               path="/services"
             />
           </ul>
+
           <ul className="cards__items">
             <CardItem
               // src="../images/special2.png"
