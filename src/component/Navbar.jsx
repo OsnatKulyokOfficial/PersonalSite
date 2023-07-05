@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import techLogo from "../images/logo.png";
+import gymLogo from "../images/logoGym.png";
 import "../style/Navbar.css";
 
 function Navbar() {
@@ -29,10 +31,14 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           {/* <div className="profile"></div> */}
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Os Gym App
+          <div className="logo-container">
+            <img src={techLogo} alt="tech logo" className="logo-img" />
+            <img src={gymLogo} alt="gym logo" className="logo-img gym" />
+          </div>
+          {/* <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            Os Kulyok
             <i className="fab fa-typo3" />
-          </Link>
+          </Link> */}
 
           <div className="ruler">
             <div className="menu-icon" onClick={handleClick}>
@@ -69,6 +75,15 @@ function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   Health nutritional support
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/products"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Modeling
                 </Link>
               </li>
 

@@ -1,27 +1,50 @@
-import React from 'react'
-import '../style/Footer.css'
-import { Button } from './Button'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "../style/Footer.css";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the Adventure by leaving ur details, and I will call u back
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
         </p>
         <div className="input-areas">
           <form>
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <div className="form-row">
+              <input
+                className="footer-input-short"
+                name="name"
+                type="text"
+                placeholder="Full Name"
+                required
+                minLength="2"
+              />
+              <input
+                className="footer-input-short"
+                name="phone"
+                type="tel"
+                placeholder="Phone Number"
+                required
+                pattern="[0-9]{10}"
+              />
+            </div>
+            <div className="form-row">
+              <input
+                className="footer-input"
+                name="email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <Button buttonStyle="btn--outline" type="submit">
+                Subscribe
+              </Button>
+            </div>
           </form>
         </div>
       </section>
@@ -53,8 +76,15 @@ function Footer() {
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
+            <Link to="https://www.instagram.com/osnatbird/" target="_blank">
+              Instagram
+            </Link>
+            <Link
+              to="https://www.facebook.com/profile.php?id=100076840553011"
+              target="_blank"
+            >
+              Facebook
+            </Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
           </div>
@@ -64,11 +94,11 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
+              HOME
               <i className="fab fa-typo3" />
             </Link>
           </div>
-          <small className="website-rights">TRVL © 2020</small>
+          <small className="website-rights">OSNAT KULYOK © 2023</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
@@ -114,7 +144,7 @@ function Footer() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
