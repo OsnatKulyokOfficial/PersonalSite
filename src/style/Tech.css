@@ -1,0 +1,33 @@
+.navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  top: 80px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.logo img {
+  width: 70px;
+  height: 90px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: bold;
+}
+.content {
+  margin-top: 20px;
+  padding-top: 110px; /* Adjust the value to match the height of the navigation bar (logo + tabs) */
+}

@@ -1,0 +1,111 @@
+.education-container {
+  /* display: row; */
+  flex-direction: row;
+  /* background-color: red; */
+  margin-left: 50px;
+}
+
+.education-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.school-info {
+  margin-bottom: 20px;
+}
+
+.school-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-images img {
+  width: 150px;
+  height: 150px;
+}
+.skills-navbar {
+  .navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    top: 80px;
+    left: 50%;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+  }
+}
+
+.project-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.project-windows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.project-window {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-window img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: #333;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+/* .skills-navbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  z-index: 900;
+} */
+
+.right-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.right-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 140px;
+}
+
+.right-navbar li {
+  margin-bottom: 10px;
+}
+
+.right-navbar li:last-child {
+  margin-bottom: 0;
+}
