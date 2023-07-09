@@ -70,16 +70,15 @@ const Education = () => {
 
         <div className="right-navbar">
           <ul>
-            FRONTEND DEVELOPMENT:
+            <p>FRONTEND DEVELOPMENT:</p>
             <li>JavaScript, TypeScript</li>
             <li>ReactJS</li>
-            <li>Responsive design</li>
+            <li>Responsive Design</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>scss</li>
-          </ul>
-          <ul>
-            BACKEND DEVELOPMENT:
+
+            <p>BACKEND DEVELOPMENT:</p>
             <li>Python</li>
             <li>Node.js</li>
             <li>ExpressJS</li>
@@ -87,15 +86,13 @@ const Education = () => {
             <li>Proxy</li>
             <li>Cors</li>
             <li>PHP</li>
-          </ul>
-          <ul>
-            DATABASES:
+
+            <p>DATABASES:</p>
             <li>SQL, MySQL</li>
             <li>MongoDB</li>
             <li>PostgreSQL</li>
-          </ul>
-          <ul>
-            ADDITIONAL TOOLS & TECHNOLOGIES:
+
+            <p>ADDITIONAL TOOLS & TECHNOLOGIES:</p>
             <li>Postman</li>
             <li>Docker</li>
             <li>RabbitMQ</li>

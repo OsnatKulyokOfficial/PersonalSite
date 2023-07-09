@@ -31,3 +31,7 @@
   margin-top: 20px;
   padding-top: 110px; /* Adjust the value to match the height of the navigation bar (logo + tabs) */
 }
+.education-component {
+  margin-top: 10px;
+  margin-left: 70px;
+}
