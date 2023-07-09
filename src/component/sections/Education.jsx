@@ -15,19 +15,22 @@ const Education = () => {
     <div>
       <div className="education-container">
         <div className="education-section">
+          <h2>Google & Reichman Tech School</h2>
           <div className="school-info">
-            <h2>Google & Reichman Tech School</h2>
-            <p>
-              Full Stack Web Development is an innovative program that provides
-              academic and practical training in following fields: Computer
-              science fundamentals, Data structures and algorithms, NodeJS,
-              React, JavaScript, Python.
-            </p>
-          </div>
-          <div className="school-images">
-            <img src={SchoolImage1} alt="School Image 1" />
-            <img src={SchoolImage2} alt="School Image 2" />
-            <img src={SchoolImage3} alt="School Image 3" />
+            <div className="proffesionalBackground">
+              <p>
+                Full Stack Web Development is an innovative program that
+                provides academic and practical training in following fields:
+                Computer science fundamentals, Data structures and algorithms,
+                NodeJS, React, JavaScript, Python.
+              </p>
+            </div>
+
+            <div className="school-images">
+              <img src={SchoolImage1} alt="School Image 1" className="one" />
+              <img src={SchoolImage2} alt="School Image 2" className="two" />
+              <img src={SchoolImage3} alt="School Image 3" className="one" />
+            </div>
           </div>
         </div>
         <div className="project-section">
@@ -70,15 +73,15 @@ const Education = () => {
 
         <div className="right-navbar">
           <ul>
-            <p>FRONTEND DEVELOPMENT:</p>
+            {/* <p>FRONTEND DEVELOPMENT:</p> */}
             <li>JavaScript, TypeScript</li>
             <li>ReactJS</li>
             <li>Responsive Design</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>scss</li>
-
-            <p>BACKEND DEVELOPMENT:</p>
+            <li>SCSS</li>
+            <br />
+            {/* <p>BACKEND DEVELOPMENT:</p> */}
             <li>Python</li>
             <li>Node.js</li>
             <li>ExpressJS</li>
@@ -86,13 +89,13 @@ const Education = () => {
             <li>Proxy</li>
             <li>Cors</li>
             <li>PHP</li>
-
-            <p>DATABASES:</p>
+            <br />
+            {/* <p>DATABASES:</p> */}
             <li>SQL, MySQL</li>
             <li>MongoDB</li>
             <li>PostgreSQL</li>
-
-            <p>ADDITIONAL TOOLS & TECHNOLOGIES:</p>
+            <br />
+            {/* <p>ADDITIONAL TOOLS & TECHNOLOGIES:</p> */}
             <li>Postman</li>
             <li>Docker</li>
             <li>RabbitMQ</li>

@@ -5,20 +5,36 @@
 
 .education-section {
   flex: 1;
-  padding: 20px 0px;
+  padding: 20px 0px 56px 0px;
 }
 
 .school-info {
   margin-bottom: 20px;
+  display: flex;
+
+  .proffesionalBackground {
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 410px;
+    height: 150px;
+  }
 }
 
 .school-images {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .school-images img {
+  /* width: 150px; */
+  height: 150px;
+  margin-left: 5px;
+}
+.one {
   width: 150px;
+}
+.two {
+  width: 200px;
   height: 150px;
 }
 .skills-navbar {
@@ -72,7 +88,7 @@
   right: 0;
   height: 100%;
   width: 200px;
-  background-color: #333;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   color: #fff;
   padding: 20px;
 }

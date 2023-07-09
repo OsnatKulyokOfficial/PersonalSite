@@ -44,8 +44,8 @@ function EducationComponent() {
   return (
     <div className="education-component">
       {/* Display your education background and achievements */}
-      <h2>Education Background</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      {/* <h2>Education Background</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
       <Education />
     </div>
   );

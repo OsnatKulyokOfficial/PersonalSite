@@ -6,7 +6,11 @@
   top: 80px;
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgb(58, 215, 236) 0%,
+    rgb(128, 149, 160) 100%
+  );
   z-index: 9;
 }
 
