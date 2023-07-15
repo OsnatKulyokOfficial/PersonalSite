@@ -1,14 +1,14 @@
 .navigation-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10px;
   top: 80px;
   position: fixed;
   width: 100%;
   background: linear-gradient(
     90deg,
-    rgb(58, 215, 236) 0%,
+    rgb(222, 233, 235) 0%,
     rgb(128, 149, 160) 100%
   );
   z-index: 9;
@@ -31,9 +31,24 @@
 .tab.active {
   font-weight: bold;
 }
+
 .content {
   margin-top: 20px;
-  padding-top: 110px; /* Adjust the value to match the height of the navigation bar (logo + tabs) */
+  padding-top: 110px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
 }
 .education-component {
   margin-top: 10px;

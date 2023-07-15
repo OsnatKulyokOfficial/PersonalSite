@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import EducationFooter from "../sections/EducationFooter";
 import "../../style/Education.css";
 import SchoolImage1 from "../../images/certificate.jpg";
 import SchoolImage2 from "../../images/finishSchool.jpg";
@@ -73,15 +72,15 @@ const Education = () => {
 
         <div className="right-navbar">
           <ul>
-            {/* <p>FRONTEND DEVELOPMENT:</p> */}
             <li>JavaScript, TypeScript</li>
             <li>ReactJS</li>
             <li>Responsive Design</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>SCSS</li>
-            <br />
-            {/* <p>BACKEND DEVELOPMENT:</p> */}
+
+            <li className="space"></li>
+
             <li>Python</li>
             <li>Node.js</li>
             <li>ExpressJS</li>
@@ -89,20 +88,21 @@ const Education = () => {
             <li>Proxy</li>
             <li>Cors</li>
             <li>PHP</li>
-            <br />
-            {/* <p>DATABASES:</p> */}
+
+            <li className="space"></li>
+
             <li>SQL, MySQL</li>
             <li>MongoDB</li>
             <li>PostgreSQL</li>
-            <br />
-            {/* <p>ADDITIONAL TOOLS & TECHNOLOGIES:</p> */}
+
+            <li className="space"></li>
+
             <li>Postman</li>
             <li>Docker</li>
             <li>RabbitMQ</li>
           </ul>
         </div>
       </div>
-      <EducationFooter />
     </div>
   );
 };

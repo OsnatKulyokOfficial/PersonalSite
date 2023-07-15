@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../style/Tech.css"; // Import the CSS file for styling
+import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import the icons
 import Education from "./Education"; // Import the Education component
 
 function TechNavigation() {
@@ -30,6 +31,22 @@ function TechNavigation() {
           >
             Private Teaching
           </div>
+        </div>
+        <div className="icons-container">
+          <a
+            href="https://www.linkedin.com/in/osnat-kulyok/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="icon" />
+          </a>
+          <a
+            href="https://github.com/OsnatKulyokOfficial"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="icon" />
+          </a>
         </div>
       </div>
       <div className="content">

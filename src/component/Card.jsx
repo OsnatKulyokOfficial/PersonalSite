@@ -13,7 +13,7 @@ function Cards() {
       <h1>Check out your boundries!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          <ul className="cards__items one">
+          {/* <ul className="cards__items one">
             <CardItem
               src={meImage}
               text="About Me"
@@ -55,7 +55,58 @@ function Cards() {
               label="Adrenaline"
               path="/sign-up"
             />
-          </ul>
+          </ul> */}
+          <div className="cards__items">
+            <CardItem
+              src={meImage}
+              text="About Me"
+              label="Adventure"
+              path="/services"
+            />
+          </div>
+          <div className="cards__items">
+            <CardItem
+              src={computeOs}
+              text="School & Professional Projects"
+              label="My Geek Side"
+              path="/services"
+            />
+          </div>
+          <div className="cards__items">
+            <CardItem
+              src={boxImage}
+              text="Fighting & Competition"
+              label="Fights"
+              path="/services"
+            />
+          </div>
+          <div className="cards__items">
+            <CardItem
+              src={box2Image}
+              className="four"
+              text="Nutritional support and eating habits"
+              label="Toning & Nutrition"
+              path="/products"
+            />
+          </div>
+          <div className="cards__items">
+            <CardItem
+              src={ModelImage}
+              className="five"
+              text="Modeling & Collaboration"
+              label="Adrenaline"
+              path="/sign-up"
+            />
+          </div>
+          <div className="cards__items">
+            <CardItem
+              src={ModelImage}
+              className="five"
+              text="Modeling & Collaboration"
+              label="Adrenaline"
+              path="/sign-up"
+            />
+          </div>
         </div>
       </div>
     </div>

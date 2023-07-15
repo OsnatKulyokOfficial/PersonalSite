@@ -26,13 +26,13 @@
 }
 
 .school-images img {
-  /* width: 150px; */
+  width: 150px;
   height: 150px;
   margin-left: 5px;
 }
-.one {
+/* .one {
   width: 150px;
-}
+} */
 .two {
   width: 200px;
   height: 150px;
@@ -90,7 +90,7 @@
   width: 200px;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   color: #fff;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .right-navbar ul {
@@ -98,6 +98,9 @@
   padding: 0;
   margin: 0;
   margin-top: 140px;
+}
+.right-navbar ul .space {
+  margin-bottom: 1.5em; /* Add desired margin value */
 }
 
 .right-navbar li {
