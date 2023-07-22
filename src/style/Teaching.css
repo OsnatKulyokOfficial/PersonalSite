@@ -1,0 +1,56 @@
+.recommended-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align content to the top/left side */
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.services-text {
+  margin-left: 20px;
+}
+
+.icon-table {
+  display: table; /* Display as table */
+  width: 100%; /* Full-width table */
+  margin-top: 20px;
+  border-spacing: 10px; /* Spacing between cells */
+}
+
+.icon-cell {
+  display: table-cell; /* Display as table cell */
+  vertical-align: middle; /* Align content vertically in cell */
+  text-align: center; /* Center content horizontally */
+}
+
+.icon-cell p {
+  margin: 0; /* Remove default margin */
+}
+
+.icon-cell svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}

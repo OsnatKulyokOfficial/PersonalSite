@@ -13,49 +13,6 @@ function Cards() {
       <h1>Check out your boundries!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          {/* <ul className="cards__items one">
-            <CardItem
-              src={meImage}
-              text="About Me"
-              label="Adventure"
-              path="/services"
-            />
-          </ul>
-          <ul className="cards__items ">
-            <CardItem
-              src={computeOs}
-              text="School & Proffesional Projects"
-              label="My Geek Side"
-              path="/services"
-            />
-          </ul>
-          <ul className="cards__items ">
-            <CardItem
-              src={boxImage}
-              text="Fighting & Competetiton"
-              label="Fights"
-              path="/services"
-            />
-          </ul>
-
-          <ul className="cards__items">
-            <CardItem
-              src={box2Image}
-              className="four"
-              text="Nutritional support and eating habits"
-              label="Toning & Nutrition"
-              path="/products"
-            />
-          </ul>
-          <ul className="cards__items">
-            <CardItem
-              src={ModelImage}
-              className="five"
-              text="Modeling & Collaboration"
-              label="Adrenaline"
-              path="/sign-up"
-            />
-          </ul> */}
           <div className="cards__items">
             <CardItem
               src={meImage}
